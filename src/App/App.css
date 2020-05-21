@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+}
+
+.container > div {
+  height: 100vh;
+  overflow: auto;
+}
+
+.main {
+  padding: 40px 20px 80px;
+  width: 650px;
+  margin: 0 auto;
+}
+.container input,
+.container textarea {
+  width: 100%;
+}
+
+.bottomButtonContainer {
+  text-align: right;
+}
+
+.slideInPanel {
+  width: 500px;
+  overflow: hidden;
+  padding: 40px;
+  border-left: 1px solid rgba(0,0,0,0.1);
+}

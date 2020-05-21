@@ -1,0 +1,12 @@
+.metricsTable {
+  display: flex;
+}
+.metricsTable > div:first-child {
+  flex-grow: 1
+}
+.metricsTable > div:nth-child(2) {
+  padding: 10px;
+}
+.metricsTable > div:last-child {
+  width: 30%;
+}

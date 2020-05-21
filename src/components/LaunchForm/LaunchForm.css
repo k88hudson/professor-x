@@ -1,0 +1,57 @@
+
+.codeSnippet {
+  color: white;
+  background-color: #1E1E1E;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+
+.codeSnippet code {
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.previewAllSnippet {
+  color: var(--magenta-60);
+  background-color: #F7F9FA;
+  font-size: 12px;
+  max-height: 300px;
+  overflow: scroll;
+}
+
+.tabsContainer {
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+.tabsContainer.noTopPadding {
+  padding-top: 0;
+}
+
+.tabsContainer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.tabsContainer li a {
+  position: relative;
+  bottom: -1px;
+  text-decoration: none;
+  background: #FFF;
+  display: block;
+  font-weight: 600;
+  padding: 10px 14px;
+  border: 1px solid #FFF;
+  border-bottom-color: #e5e5e5;
+  color: #949494;
+
+}
+
+.tabsContainer li a.activeTab {
+  border-color: #e5e5e5;
+  border-radius: 3px 3px 0 0;
+  border-bottom-color: #FFF;
+  opacity: 1;
+  color: inherit;
+}

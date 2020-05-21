@@ -1,0 +1,132 @@
+.fieldContainer {
+  margin-bottom: 35px;
+}
+
+.titleLabel {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.inputHelpText {
+  margin-bottom: 8px;
+}
+
+.additiveList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.additiveItem {
+  display: inline-block;
+  border: 1px solid #CCC;
+  padding: 4px 8px;
+  margin-right: 5px;
+  border-radius: 3px;
+}
+
+.additiveRemove {
+  border: 0;
+  background: transparent;
+  width: 12px;
+  height: 12px;
+}
+
+.icon {
+  width: 12px;
+  height: 12px;
+}
+
+.dropdownDescription {
+  font-size: 13px;
+  margin: 0;
+  opacity: 0.5;
+}
+
+.primaryButton,
+.secondaryButton,
+.smallButton,
+.lightBlue {
+  font-size: 14px;
+  font-family: inherit;
+  border: 0;
+  border-radius: 3px;
+  padding: 8px 15px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+
+.primaryButton,
+.primaryButton:visited {
+  background-color: var(--blue-60);
+  color: white;
+}
+.primaryButton:hover {
+  background-color: var(--blue-50);
+}
+.primaryButton .icon {
+  fill: white;
+}
+
+.secondaryButton,
+.secondaryButton:visited {
+  color: inherit;
+  background-color: var(--grey-20);
+}
+.secondaryButton:hover {
+  background-color: var(--grey-30);
+}
+
+.secondaryButton .icon {
+  fill: rgba(0, 0, 0, 0.6);
+}
+.smallButton {
+  padding: 3px 8px;
+  font-size: 13px;
+}
+
+.lightBlue,
+.headerButton {
+  color: var(--blue-60);
+  background-color: var(--blue-50-a30);
+}
+.lightBlue:hover {
+  background-color: var(--blue-50-a20);
+}
+
+.lightBlue .icon {
+  fill: var(--blue-60);
+}
+
+.headerButton {
+  font-family: inherit;
+  border: 0;
+  border-radius: 3px;
+  padding: 8px 15px;
+  text-decoration: none;
+  padding: 4px 8px;
+  font-size: 13px;
+  font-weight: 600;
+
+}
+
+
+.notice {
+  padding: 10px;
+  color: var(--blue-50);
+  background-color: rgba(10, 132, 255, 0.1);
+  border-radius: 3px;
+}
+.notice a {
+  color: var(--blue-50);
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  display: inline;
+  -moz-context-properties: fill;
+  fill: rgba(0, 0, 0, 0.6);
+}
