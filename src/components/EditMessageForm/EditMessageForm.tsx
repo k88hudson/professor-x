@@ -48,7 +48,7 @@ const templateTypes = {
             defaultValue="Recommended"
           />
         </BaseField>
-        <BaseField
+        {/* <BaseField
           id="chiclet_color"
           title="Chiclet color"
           description="Color of the chiclet. Defaults to blue"
@@ -56,7 +56,7 @@ const templateTypes = {
           <ColorSelect
             defaultValue={{ label: "BLUE_60", value: colors.BLUE_60 }}
           />
-        </BaseField>
+        </BaseField> */}
         <SingleTextField
           title="Doorhanger Title"
           description="Title text at the top of the door hanger"
